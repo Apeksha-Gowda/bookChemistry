@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "441751690991",
+    "firebase_url": "https://bookshoppingapp.firebaseio.com",
+    "project_id": "bookshoppingapp",
+    "storage_bucket": "bookshoppingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441751690991:android:1c85a8e98870a9362dc51a",
+        "android_client_info": {
+          "package_name": "com.example.bookshopppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441751690991-oo1em28m9h2j0sgf1a6mptao21bjce26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookshopppingapp",
+            "certificate_hash": "a24d380d97443b079a4765e7c77ad2c39da25a2b"
+          }
+        },
+        {
+          "client_id": "441751690991-oi0s1s9jca08b19atcc8eggka08ms5nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi_spi0ZtaRkr5wnaVfDQpM9q7Tn7CgN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441751690991-oi0s1s9jca08b19atcc8eggka08ms5nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

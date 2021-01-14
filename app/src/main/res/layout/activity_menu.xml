@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MenuActivity">
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp"/>
+    <Button
+        android:id="@+id/comic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_gradient"
+        android:text="COMIC"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/carouselView"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/mystery"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_gradient"
+        android:text="MYSTERY"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/comic"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/fairytale"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_gradient"
+        android:text="FAIRY TALE"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/mystery"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/horror"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_gradient"
+        android:text="HORROR"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/fairytale"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

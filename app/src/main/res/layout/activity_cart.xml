@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rel"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ListView
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cartList"
+
+       >
+    </ListView>
+    <LinearLayout
+        android:gravity="center"
+      android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="30dp"
+            android:text="Total Prize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/cost"
+            android:textSize="30dp"
+            android:text="50$"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkout"
+            android:background="@drawable/button_gradient"
+            android:text="Checkout"
+            android:padding="20px"
+            android:layout_marginLeft="20px"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

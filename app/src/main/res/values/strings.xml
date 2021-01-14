@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Book Store</string>
+    <string name="prompt_email">email</string>
+    <string name="prompt_password">password</string>
+    <string name="login">Login</string>
+    <string name="register">New User ?</string>
+    <string name="email_error">Enter the Email</string>
+    <string name="error_invalid_email">Invalid Email</string>
+    <string name="password_error">Enter the Password</string>
+    <string name="error_invalid_password">Password should be atleast 6 charecters</string>
+    <string name="SaveRegister">Register</string>
+    <string name="name">Name</string>
+    <string name="name_error">Enter the Name</string>
+    <string name="admin">Admin Console</string>
+    <string name="productName">Name : </string>
+    <string name="productPrice">Price : $</string>
+    <string name="check">Add to Cart</string>
+    <string name="view">View Cart</string>
+
+</resources>

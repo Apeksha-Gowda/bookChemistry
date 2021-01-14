@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:paddingTop="20dp"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/productName"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/productPrice"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:textSize="16sp"
+            android:paddingBottom="5px"/>
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addToCart"
+            android:text="@string/check"
+            android:padding="10px"
+            android:background="@drawable/button_gradient"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="15px"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewCart"
+            android:text="@string/view"
+            android:padding="10px"
+            android:background="@drawable/button_gradient"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="15px"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    <ImageView
+        android:layout_width="350px"
+        android:layout_height="400px"
+        android:scaleType="fitXY"
+        android:id="@+id/productPicture"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
